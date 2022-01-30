@@ -1,0 +1,465 @@
+:root {
+  --main-color: #212121;
+  --secondary-color: #2196f3;
+  --third-color: #757575;
+  --fourth-color: #ffffff;
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --background: #2f303a;
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--main-color);
+  margin: 0;
+}
+
+footer {
+  font-family: var(--main-font);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+
+/* ==== COMPONENTS ===== */
+
+.modal-btn-index {
+  background-color: var(--secondary-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  /* identical to box height, or 187% */
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  color: var(--fourth-color);
+  width: 200px;
+  height: 50px;
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
+  border-radius: 4px;
+  margin: auto;
+  display: block;
+  border: 0;
+}
+
+.navigation-logo-header {
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  /* identical to box height */
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  color: #000000;
+}
+
+.navigation-logo-header {
+  margin-right: 93px;
+}
+
+.navigation-list,
+.navigation-list-phone-mail {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-list-item:not(:last-child) {
+  margin-right: 46px;
+}
+
+.navigation-list-phone-mail {
+  margin-left: auto;
+}
+
+.header-phone-number {
+  margin-left: 50px;
+}
+
+.navigation-logo-span {
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  /* identical to box height */
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  color: #2196f3;
+}
+
+.navigation-logo-footer {
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  /* identical to box height */
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  color: var(--fourth-color);
+  margin-top: 60px;
+}
+
+.button-porfolio {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  background: #f5f4fa;
+  border-radius: 4px;
+  color: var(--main-color);
+  border: 0;
+  padding: 6px 22px;
+}
+
+.section-buttons-porfolio {
+  padding-top: 94px;
+}
+
+.buttons-porfolio-outside {
+  display: flex;
+  align-items: center;
+  margin-left: 332px;
+}
+
+.list-button-porfolio:not(:last-child) {
+  margin-right: 8px;
+}
+
+.button-porfolio:hover,
+.button-porfolio:focus {
+  background-color: var(--secondary-color);
+  color: var(--fourth-color);
+}
+
+.navigation-list,
+.navigation-list-phone-mail,
+.navigation-list-footer,
+.list-button-porfolio {
+  list-style: none;
+}
+
+/* ==== END COMPONENTS ===== */
+
+/* ==== HEADER ===== */
+
+.block-banner-outside {
+  width: 1200px;
+  padding: 0 15px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.modal-btn-index {
+  margin-top: 30px;
+}
+
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
+.advantages-block {
+  margin: 94px 30px;
+  margin-left: 0;
+}
+
+.ul-button-porfolio {
+  display: flex;
+  align-items: center;
+  margin-left: 332px;
+}
+
+.service-box {
+  margin: 50px 30px 94px;
+  margin-left: 0;
+}
+
+.header,
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+}
+
+.navigation-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--main-color);
+  cursor: pointer;
+}
+
+.header-mail,
+.header-phone-number {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--third-color);
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.header-mail:hover,
+.header-mail:focus,
+.header-phone-number:hover,
+.header-phone-number:focus,
+.adress-maps:hover,
+.adress-maps:focus,
+.adress-mail:hover,
+.adress-mail:focus,
+.adress-phone-number:hover,
+.adress-phone-number:focus {
+  color: var(--secondary-color);
+}
+
+.baner-header {
+  background-color: var(--background);
+  height: 37.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.text-baner {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  /* or 136% */
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--fourth-color);
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* ==== END HEADER ===== */
+
+/* ==== HEADER PORTFOLIO ===== */
+
+.categories-portfolio {
+  padding-top: 50px;
+  padding-bottom: 94px;
+}
+
+.categories-portfolio-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.categories-portfolio-list-item {
+  list-style: none;
+}
+
+.services-header {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+  color: var(--main-color);
+}
+
+.services-header {
+  margin: 0;
+  padding-top: 20px;
+}
+
+.services-description {
+  margin: 0;
+  padding-top: 4px;
+}
+
+.services-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  /* identical to box height, or 187% */
+  letter-spacing: 0.03em;
+  color: var(--third-color);
+}
+
+/* ==== END HEADER PORTFOLIO ===== */
+
+/* ==== MAIN ===== */
+
+.h2-text {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+
+.advantages-header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+
+.advantages-description {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: var(--third-color);
+}
+
+.team-section {
+  background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.team-box {
+  /* card bg */
+
+  width: 270px;
+  height: 368px;
+  left: 215px;
+  top: 1635px;
+  background: #ffffff;
+  /* material shadow v1 */
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  margin: 50px 30px 94px;
+  margin-left: 0;
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+
+.team-occupation {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.188;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--third-color);
+}
+
+/* ==== END MAIN ===== */
+
+/* ==== FOOTER ===== */
+
+.adress-maps {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--fourth-color);
+}
+
+.adress-mail,
+.adress-phone-number {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer {
+  background-color: var(--background);
+  height: 252px;
+}
+
+.footer-block-outside {
+  width: 1200px;
+  padding: 0 15px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.footer-block-inside {
+  padding-top: 60px;
+}
+
+.address {
+  margin-top: 20px;
+  margin-bottom: 9px;
+}
+
+.footer_list_item:not(:last-child) {
+  margin-bottom: 9px;
+}
+/* ==== END FOOTER ===== */
