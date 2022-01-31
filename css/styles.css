@@ -43,7 +43,6 @@ img {
 
 .container {
   width: 1200px;
-  padding: 0 15px;
   align-items: center;
   margin: 0 auto;
 }
@@ -188,7 +187,6 @@ img {
 
 .block-banner-outside {
   width: 1200px;
-  padding: 0 15px;
   align-items: center;
   margin: 0 auto;
 }
@@ -445,7 +443,6 @@ img {
 
 .footer-block-outside {
   width: 1200px;
-  padding: 0 15px;
   align-items: center;
   margin: 0 auto;
 }
