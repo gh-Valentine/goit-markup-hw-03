@@ -161,7 +161,6 @@ img {
 .buttons-porfolio-outside {
   display: flex;
   align-items: center;
-  margin-left: 332px;
 }
 
 .list-button-porfolio:not(:last-child) {
