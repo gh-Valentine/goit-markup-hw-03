@@ -201,6 +201,7 @@ img {
 .advantages-block {
   margin: 94px 30px;
   margin-left: 0;
+  list-style: none;
 }
 
 .ul-button-porfolio {
@@ -210,8 +211,13 @@ img {
 }
 
 .service-box {
+  display: flex;
+}
+
+.service-box-list {
   margin: 50px 30px 94px;
   margin-left: 0;
+  list-style: none;
 }
 
 .header,
@@ -291,6 +297,7 @@ img {
 .categories-portfolio {
   padding-top: 50px;
   padding-bottom: 94px;
+  
 }
 
 .categories-portfolio-list {
@@ -301,8 +308,21 @@ img {
   gap: 30px;
 }
 
+
+.categories-portfolio-list-item:hover,
+.categories-portfolio-list-item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .categories-portfolio-list-item {
   list-style: none;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;
+  cursor: pointer;
 }
 
 .services-header {
@@ -311,26 +331,18 @@ img {
   line-height: 2;
   /* identical to box height, or 200% */
   letter-spacing: 0.06em;
-  color: var(--main-color);
-}
-
-.services-header {
-  margin: 0;
-  padding-top: 20px;
+  margin: 20px 24px 2px 24px;
 }
 
 .services-description {
-  margin: 0;
-  padding-top: 4px;
-}
-
-.services-description {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.875;
-  /* identical to box height, or 187% */
-  letter-spacing: 0.03em;
-  color: var(--third-color);
+  font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+    /* identical to box height, or 187% */
+    letter-spacing: 0.03em;
+    color: var(--third-color);
+    margin: 2px 24px 20px 24px;
 }
 
 /* ==== END HEADER PORTFOLIO ===== */
@@ -354,6 +366,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-color);
+  margin-bottom: 10px;
 }
 
 .advantages-description {
@@ -386,6 +399,7 @@ img {
   border-radius: 0px 0px 4px 4px;
   margin: 50px 30px 94px;
   margin-left: 0;
+  list-style: none;
 }
 
 .team-name {
@@ -396,6 +410,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-color);
+  margin-top: 30px;
 }
 
 .team-occupation {
@@ -406,6 +421,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--third-color);
+  margin-top: 10px;
 }
 
 /* ==== END MAIN ===== */
